@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B2DFEE"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="修改书籍"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:paddingVertical="5dp"
+        >
+
+        <TextView
+            android:id="@+id/tvbnok"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="编号"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/tvbnov"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@drawable/edit_background"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:paddingVertical="5dp">
+
+        <TextView
+            android:id="@+id/tvbnamek"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="书名"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/tvbnamev"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@drawable/edit_background"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:paddingVertical="5dp">
+
+        <TextView
+            android:id="@+id/tvbauthork"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="作者"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/tvbauthorv"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@drawable/edit_background"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:paddingVertical="5dp">
+
+        <TextView
+            android:id="@+id/tvbnumk"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="馆藏数量"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/tvbnumv"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@drawable/edit_background"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:paddingVertical="5dp">
+
+        <TextView
+            android:id="@+id/tvbpricek"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="价格"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/tvbpricev"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@drawable/edit_background"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:paddingVertical="5dp">
+
+        <TextView
+            android:id="@+id/tvbversionk"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="版次"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/tvbversionv"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@drawable/edit_background"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:paddingVertical="5dp">
+
+        <TextView
+            android:id="@+id/tvbpressk"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="出版社"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/tvbpressv"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@drawable/edit_background"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="修改"
+            />
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="返回"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
